@@ -36,6 +36,7 @@ namespace Consulta_Cep
                 if(cepRecebido.erro == "true")
                 {
                     MessageBox.Show("Erro : Cep não encontrado\nVerificar o cep");
+                    consultar.Enabled = true;
                 }
                 else
                 {
