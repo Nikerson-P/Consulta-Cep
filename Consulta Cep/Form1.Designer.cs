@@ -48,9 +48,9 @@
             this.uf = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.siafi = new System.Windows.Forms.TextBox();
-            this.consultar = new System.Windows.Forms.Button();
             this.labelBairro = new System.Windows.Forms.Label();
             this.bairro = new System.Windows.Forms.TextBox();
+            this.consultar = new System.Windows.Forms.Button();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -282,16 +282,6 @@
             this.siafi.Size = new System.Drawing.Size(127, 20);
             this.siafi.TabIndex = 18;
             // 
-            // consultar
-            // 
-            this.consultar.Location = new System.Drawing.Point(211, 40);
-            this.consultar.Name = "consultar";
-            this.consultar.Size = new System.Drawing.Size(75, 23);
-            this.consultar.TabIndex = 20;
-            this.consultar.Text = "Consultar";
-            this.consultar.UseVisualStyleBackColor = true;
-            this.consultar.Click += new System.EventHandler(this.consultar_Click);
-            // 
             // labelBairro
             // 
             this.labelBairro.AutoSize = true;
@@ -312,6 +302,16 @@
             this.bairro.Size = new System.Drawing.Size(127, 20);
             this.bairro.TabIndex = 20;
             // 
+            // consultar
+            // 
+            this.consultar.Location = new System.Drawing.Point(211, 40);
+            this.consultar.Name = "consultar";
+            this.consultar.Size = new System.Drawing.Size(75, 23);
+            this.consultar.TabIndex = 20;
+            this.consultar.Text = "Consultar";
+            this.consultar.UseVisualStyleBackColor = true;
+            this.consultar.Click += new System.EventHandler(this.consultar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -325,7 +325,7 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.InfoText;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Consulta de Cep";
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
