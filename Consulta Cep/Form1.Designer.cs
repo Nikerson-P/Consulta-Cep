@@ -225,6 +225,9 @@
             // 
             // tableLayoutPanel2
             // 
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.09199F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.90801F));
@@ -323,6 +326,8 @@
             this.Controls.Add(this.cep);
             this.Controls.Add(this.label2);
             this.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.MaximumSize = new System.Drawing.Size(380, 480);
+            this.MinimumSize = new System.Drawing.Size(380, 480);
             this.Name = "Form1";
             this.Text = "Consulta de Cep";
             this.tableLayoutPanel2.ResumeLayout(false);

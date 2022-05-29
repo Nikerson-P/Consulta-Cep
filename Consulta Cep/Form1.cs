@@ -42,6 +42,7 @@ namespace Consulta_Cep
             consultar.Enabled = false;
             if (this.cep.Text != string.Empty || this.cep.Text != null )
             {
+                this.Text = "Consulta de Cep:" + this.cep.Text;
                 string recebido1 = await Task.Run(() => Consultar(this.cep.Text));
 
                 Cep cepRecebido = JsonConvert.DeserializeObject<Cep>(recebido1);
