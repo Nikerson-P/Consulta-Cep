@@ -45,9 +45,14 @@ namespace Consulta_Cep
             wc.Encoding = Encoding.UTF8;
             wc.DownloadFile(site + textSite + "/json/","cep.json");
             string recebido = "";
-          
+            try
+            {
                 recebido = wc.DownloadString(site + textSite + "/json/");
-            
+            }catch(Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+
             return recebido;
         }
     }
