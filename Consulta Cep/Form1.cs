@@ -16,7 +16,7 @@ namespace Consulta_Cep
     public partial class Form1 : Form
     {
         string site = "http://viacep.com.br/ws/";
-        string recebido;
+        
         public Form1()
         {
             InitializeComponent();
