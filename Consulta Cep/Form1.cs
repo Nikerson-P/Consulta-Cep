@@ -33,8 +33,16 @@ namespace Consulta_Cep
             {
                 string recebido1 = Consultar(this.cep.Text);
                 Cep cepRecebido = JsonConvert.DeserializeObject<Cep>(recebido1);
-                MessageBox.Show(cepRecebido.ToString());
-                consultar.Enabled = true;
+                if(cepRecebido.erro == "true")
+                {
+                    MessageBox.Show("Erro : Cep não encontrado\nVerificar o cep");
+                }
+                else
+                {
+                    MessageBox.Show(cepRecebido.ToString());
+                    consultar.Enabled = true;
+
+                }
             }
             
         }

@@ -30,7 +30,7 @@ namespace Consulta_Cep
         public string gia;
         public string ddd;
         public string siafi;
-
+        public string erro;
 
         public override string ToString()
         {
@@ -43,7 +43,7 @@ namespace Consulta_Cep
                 $"IBGE:{ibge}\n " +
                 $"GIA:{gia}\n " +
                 $"DDD:{ddd}\n " +
-                $"SIAFI:{siafi}\n";
+                $"SIAFI:{siafi}\n ";
         }
     }
 }
