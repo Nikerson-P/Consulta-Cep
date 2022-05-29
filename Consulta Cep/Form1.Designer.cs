@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cep = new System.Windows.Forms.TextBox();
             this.labelLogra = new System.Windows.Forms.Label();
@@ -51,19 +50,9 @@
             this.labelBairro = new System.Windows.Forms.Label();
             this.bairro = new System.Windows.Forms.TextBox();
             this.consultar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Enabled = false;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(67, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Consulta de Cep";
             // 
             // label2
             // 
@@ -312,17 +301,27 @@
             this.consultar.UseVisualStyleBackColor = true;
             this.consultar.Click += new System.EventHandler(this.consultar_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(55, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(150, 24);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "Consulta de Cep";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(292, 442);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.consultar);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.cep);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.InfoText;
             this.Name = "Form1";
             this.Text = "Consulta de Cep";
@@ -334,8 +333,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox cep;
         private System.Windows.Forms.Label labelLogra;
@@ -358,6 +355,7 @@
         private System.Windows.Forms.Button consultar;
         private System.Windows.Forms.Label labelBairro;
         private System.Windows.Forms.TextBox bairro;
+        private System.Windows.Forms.Label label1;
     }
 }
 
