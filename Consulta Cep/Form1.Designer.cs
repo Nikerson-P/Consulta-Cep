@@ -158,9 +158,9 @@
             this.logra.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.logra.Location = new System.Drawing.Point(127, 3);
+            this.logra.Location = new System.Drawing.Point(128, 3);
             this.logra.Name = "logra";
-            this.logra.Size = new System.Drawing.Size(207, 20);
+            this.logra.Size = new System.Drawing.Size(206, 20);
             this.logra.TabIndex = 11;
             // 
             // ibge
@@ -168,9 +168,9 @@
             this.ibge.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ibge.Location = new System.Drawing.Point(127, 159);
+            this.ibge.Location = new System.Drawing.Point(128, 159);
             this.ibge.Name = "ibge";
-            this.ibge.Size = new System.Drawing.Size(207, 20);
+            this.ibge.Size = new System.Drawing.Size(206, 20);
             this.ibge.TabIndex = 12;
             // 
             // local
@@ -178,9 +178,9 @@
             this.local.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.local.Location = new System.Drawing.Point(127, 81);
+            this.local.Location = new System.Drawing.Point(128, 81);
             this.local.Name = "local";
-            this.local.Size = new System.Drawing.Size(207, 20);
+            this.local.Size = new System.Drawing.Size(206, 20);
             this.local.TabIndex = 13;
             // 
             // ddd
@@ -188,9 +188,9 @@
             this.ddd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ddd.Location = new System.Drawing.Point(127, 237);
+            this.ddd.Location = new System.Drawing.Point(128, 237);
             this.ddd.Name = "ddd";
-            this.ddd.Size = new System.Drawing.Size(207, 20);
+            this.ddd.Size = new System.Drawing.Size(206, 20);
             this.ddd.TabIndex = 14;
             // 
             // comple
@@ -198,9 +198,9 @@
             this.comple.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comple.Location = new System.Drawing.Point(127, 42);
+            this.comple.Location = new System.Drawing.Point(128, 42);
             this.comple.Name = "comple";
-            this.comple.Size = new System.Drawing.Size(207, 20);
+            this.comple.Size = new System.Drawing.Size(206, 20);
             this.comple.TabIndex = 15;
             // 
             // gia
@@ -208,9 +208,9 @@
             this.gia.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gia.Location = new System.Drawing.Point(127, 198);
+            this.gia.Location = new System.Drawing.Point(128, 198);
             this.gia.Name = "gia";
-            this.gia.Size = new System.Drawing.Size(207, 20);
+            this.gia.Size = new System.Drawing.Size(206, 20);
             this.gia.TabIndex = 16;
             // 
             // uf
@@ -218,9 +218,9 @@
             this.uf.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.uf.Location = new System.Drawing.Point(127, 120);
+            this.uf.Location = new System.Drawing.Point(128, 120);
             this.uf.Name = "uf";
-            this.uf.Size = new System.Drawing.Size(207, 20);
+            this.uf.Size = new System.Drawing.Size(206, 20);
             this.uf.TabIndex = 17;
             // 
             // tableLayoutPanel2
@@ -269,9 +269,9 @@
             this.siafi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.siafi.Location = new System.Drawing.Point(127, 276);
+            this.siafi.Location = new System.Drawing.Point(128, 276);
             this.siafi.Name = "siafi";
-            this.siafi.Size = new System.Drawing.Size(207, 20);
+            this.siafi.Size = new System.Drawing.Size(206, 20);
             this.siafi.TabIndex = 18;
             // 
             // labelBairro
@@ -289,9 +289,9 @@
             this.bairro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.bairro.Location = new System.Drawing.Point(127, 315);
+            this.bairro.Location = new System.Drawing.Point(128, 315);
             this.bairro.Name = "bairro";
-            this.bairro.Size = new System.Drawing.Size(207, 20);
+            this.bairro.Size = new System.Drawing.Size(206, 20);
             this.bairro.TabIndex = 20;
             // 
             // consultar

@@ -89,7 +89,7 @@ namespace Consulta_Cep
             WebClient wc = new WebClient();
             wc.Encoding = Encoding.UTF8;
             wc.DownloadFile(site + textSite + "/json/","cep.json");
-            Thread.Sleep(5000);
+            //Thread.Sleep(5000);
 
             string recebido = "";
             try
